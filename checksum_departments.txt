@@ -1,0 +1,10 @@
+===== CHECKSUM DEPARTMENTS - MARIADB =====
+checksum_departments
+39929f56c0dbcadfc702b03004c7daa3
+
+===== CHECKSUM DEPARTMENTS - POSTGRESQL =====
+       checksum_departments       
+----------------------------------
+ 39929f56c0dbcadfc702b03004c7daa3
+(1 fila)
+

@@ -1,0 +1,31 @@
+2026-09-25T17:57:57.008000Z LOG pgloader version "3.6.10~devel"
+2026-09-25T17:57:57.012000Z LOG Parsing commands from file #P"/home/anderson/Actividad5/migracion_pdb.load"
+2026-09-25T17:57:57.204001Z LOG Migrating from #<MYSQL-CONNECTION mysql://root@localhost:3306/employees {1006AB5BB3}>
+2026-09-25T17:57:57.204001Z LOG Migrating into #<PGSQL-CONNECTION pgsql://anderson@localhost:5432/pdb_employees {1006AB5DC3}>
+2026-09-25T17:58:10.368048Z LOG report summary reset
+             table name     errors       rows      bytes      total time
+-----------------------  ---------  ---------  ---------  --------------
+        fetch meta data          0         21                     0.140s
+         Create Schemas          0          0                     0.004s
+       Create SQL Types          0          0                     0.008s
+          Create tables          0         12                     0.032s
+         Set Table OIDs          0          6                     0.004s
+-----------------------  ---------  ---------  ---------  --------------
+     employees.salaries          0    2844047    94.2 MB         10.212s
+       employees.titles          0     443308    16.9 MB          3.032s
+     employees.dept_emp          0     331603    10.7 MB          3.328s
+  employees.departments          0          9     0.1 kB          0.568s
+ employees.dept_manager          0         24     0.8 kB          0.024s
+    employees.employees          0     300024    13.2 MB          2.304s
+-----------------------  ---------  ---------  ---------  --------------
+COPY Threads Completion          0          8                    10.152s
+         Create Indexes          0          9                     2.448s
+ Index Build Completion          0          9                     1.352s
+        Reset Sequences          0          0                     0.096s
+           Primary Keys          0          6                     0.008s
+    Create Foreign Keys          0          6                     1.080s
+        Create Triggers          0          0                     0.000s
+        Set Search Path          0          1                     0.004s
+       Install Comments          0          0                     0.000s
+-----------------------  ---------  ---------  ---------  --------------
+      Total import time          ✓    3919015   134.9 MB         15.140s

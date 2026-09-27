@@ -1,0 +1,14 @@
+VERIFICACIÓN DE INTEGRIDAD REFERENCIAL - PostgreSQL
+Base de datos: pdb_employees
+
+Relación                              Huérfanos
+------------------------------------------------
+dept_emp -> employees                 0
+dept_emp -> departments               0
+dept_manager -> employees             0
+dept_manager -> departments           0
+salaries -> employees                 0
+titles -> employees                   0
+
+Resultado:
+No se encontraron registros huérfanos en ninguna de las seis relaciones verificadas.

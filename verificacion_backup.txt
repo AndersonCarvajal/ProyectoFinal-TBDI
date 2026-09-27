@@ -1,0 +1,29 @@
+===== BACKUP POSTGRESQL =====
+-rw-r--r-- 1 anderson anderson 35M sep 27 10:44 /home/anderson/ProyectoFinal/backup_pdb_employees.dump
+
+===== VALIDACION CON PG_RESTORE =====
+;
+; Archive created at 2026-09-27 10:44:04 -04
+;     dbname: pdb_employees
+;     TOC Entries: 35
+;     Compression: gzip
+;     Dump Version: 1.16-0
+;     Format: CUSTOM
+;     Integer: 4 bytes
+;     Offset: 8 bytes
+;     Dumped from database version: 18.6 (Debian 18.6-1.pgdg13+2)
+;     Dumped by pg_dump version: 18.6 (Debian 18.6-1.pgdg12+2)
+;
+;
+; Selected TOC Entries:
+;
+6; 2615 16484 SCHEMA - employees anderson
+223; 1259 16490 TABLE employees dept_emp anderson
+228; 1259 16678 VIEW employees dept_emp_latest_date anderson
+229; 1259 16682 VIEW employees current_dept_emp anderson
+222; 1259 16485 TABLE employees departments anderson
+224; 1259 16497 TABLE employees dept_manager anderson
+225; 1259 16504 TABLE employees employees anderson
+226; 1259 16515 TABLE employees salaries anderson
+227; 1259 16522 TABLE employees titles anderson
+3489; 0 16485 TABLE DATA employees departments anderson
